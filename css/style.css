@@ -1,0 +1,307 @@
+html{
+	box-sizing: border-box;
+}
+*,
+*::before,
+*::after{
+	box-sizing: inherit;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	font-family: "Roboto", "Arial", sans-serif;
+}
+/*viewport*/
+ul{
+	/*display: flex;*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	color: rgba(0,0,0,0.4);
+
+}
+h2{
+	color: rgba(0,0,0,0.4);
+}
+
+:root{
+	--standart-pedding:2vw;
+}
+.container{
+	/*background: black url(../img/prista.jpg) no-repeat center;*/
+	display: flex;
+	flex-direction: column;
+	max-width: 80vw;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 100px, 10px;
+}
+.link{
+	display: inline-block;
+	border-radius: 50px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: white;
+	background-color: #31CC79;
+	font-weight: bold;
+	padding: 12px 25px;
+	transition: background-color 0.3s ease; 
+	/*position: absolute;
+	width: 1440px;
+	height: 80px;
+	left: 0px;
+	top: 0px*/
+}
+.link{
+	font-size: 1vw;
+}
+.link:hover{
+	background-color: #2DC1AA;
+}
+
+/*SITE HEADER*/
+.site-header{
+	display: flex;
+	justify-content: space-between;
+	/*flex-direction: column;*/
+	width: 100%;
+	margin-top: 5vh;
+	margin-bottom: 20px;
+	padding: var(--standart-pedding);
+
+}
+.logo{
+	/*display: block;*/
+	margin-left: 25px;
+}
+
+.site-header-right{
+	/*display: flex;*/
+	/*border: 1px solid green;*/
+	margin-top: 5vh;
+}
+
+.site-nav-list{
+	display: flex;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+
+}
+.site-nav-list{
+	font-size: 1vw;
+}
+.site-nav-items{
+	margin-right: 55px;
+	/*border: 1px solid green;*/
+	padding: 10px 0;
+	transition: box-shadow 0.4s ease;
+
+}
+.site-nav-items{
+	font-size: 1vw;
+}
+.site-nav-items a{
+	color: rgba(0,0,0,0.4);
+	text-decoration: none;
+	transition: color 0.2s ease;
+}
+.site-nav-items a{
+	font-size: 1vw;
+}
+.site-nav-items:hover{
+	box-shadow: 0 2px 0 0 #31CC79;
+}
+.site-nav-items:hover.site-nav-items>a{
+	color: rgba(0,0,0,0.8);
+}
+.search{
+	/*border: none;*/
+	border-bottom: 1px solid black;
+	/*padding-bottom: 5px;*/
+
+}
+.search{
+	font-size: 1vw;
+}
+.search:focus{
+	/*outline: none;*/
+	border: 2px solid green;
+}
+.search{
+	font-size: 1vw;
+}
+
+/*DIGITAL BANK SECTION*/
+
+.digital-section{
+	display: flex;
+	/*border: 1px solid green;*/
+	padding: 120px 0 200px 0;
+	background-image: url(../img/group-image.png);
+	background-repeat: no-repeat;
+	background-size: 600px;
+	/*background-size: contain 600px;*/
+	background-position: right -5% top 0%;
+	overflow: visible;
+}
+.digital-calls-taxt-side{
+	/*border: 1px solid red;*/
+	width: 500px;
+}
+.digital-calls-taxt-side{
+	font-size: 1vw;
+}
+.images-items{
+	display: flex;
+}
+.images-items{
+	font-size: 3vw;
+}
+/*.digital-calls-taxt-side>h2{
+	font-size: 3vw;*/
+}
+.digital-calls-taxt-side p{
+	font-size: 15px;
+	color: rgba(0,0,0,0.4);
+	padding: 10px 0;
+	padding-left: 30px;
+	/*border-left: 2px solid rgba(0,0,0,0.4);*/
+	/*letter-spacing: 2,5px;
+	word-spacing: 2px;
+	line-height: 22px;*/		
+}
+.digital-calls-taxt-side p{
+	margin-top: 2vw;
+}
+.digital-calls-taxt-side p{
+	font-size: 1vw;
+}
+.banking-items-list{
+	display: flex;
+	justify-content: space-between;
+	font-size: 1vw;
+}
+.banking-items-list{
+	font-size: 1vw;
+}
+
+.banking-item{
+	font-size: 1vw;
+}
+.footer-section{
+	position: relative;
+}
+.footer-section{
+	font-size: 1vw;
+}
+.articls-list{
+	display: flex;
+}
+.articls-list{
+	font-size: 1vw;
+}
+.contact-with{
+	position: absolute;
+	width: 1110px;
+	height: 95px;
+	/*left: 5px;*/
+	top: 100%;
+	background-color: #2D314D;
+}
+.contact-with{
+	font-size: 1vw;
+}
+.icons-list{
+	position: relative;
+	/*border: 1px solid green;*/
+	display: flex;
+	/*flex-direction: column;*/
+	/*justify-content: space-between;*/
+	/*width: 154px;*/
+}
+.icons-list{
+	font-size: 1px;
+}
+.mead-idea{
+	display: flex;
+	/*flex-direction: column;*/
+	justify-content: space-between;
+	/*margin-right: 131px;*/
+	/*position: absolute;
+	/*margin:48px 115px;
+	border: 1px solid red;
+	display: flex;
+	justify-content: center;
+	/*align-items: center;*/
+}
+
+.footer-div1 {
+	position: absolute;
+	display: flex;
+	/*flex-direction: column;*/
+	justify-content: space-around;
+	margin-right: 300px;
+	bottom: -15px;
+}
+.footer-div1 li {
+	margin-right: 15px;
+}
+.mead-idea{
+	font-size: 1vw;
+}
+/*.mead-idea{
+	position: absolute;
+	width: 1440px;
+	height: 191px;
+	left: 0px;
+	top: 2071px;*/
+}
+.list{
+	display: flex;
+}
+.list{
+	font-size: 1vw;
+}
+a{
+	color: inherit;
+	text-decoration: none;
+}
+.items{
+	color: #fff;
+}
+
+@media only screen and (max-width: 600px){
+
+	.site-header h2{
+		font-size: 35px;
+	}
+
+	.main-center p{
+		font-size: 	20px;
+}
+	.site-header-right li{
+		font-size: 25px;
+	}
+	.main-left li{
+		font-size: 25px;
+
+	}
+	.footer-section P{
+		font-size: 20px;
+	}
+	.site-main{
+		flex-direction: column;
+	}
+	.main-left{
+		width: 100%;
+	}
+	.main-center{
+		width: 100%;
+}
+.main-right{
+	width: 100%;
+}
+
+}
